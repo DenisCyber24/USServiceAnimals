@@ -116,7 +116,9 @@ public class registerAnimalServicePage extends CommonMethods {
 
     public void clickExemptionFromPetRentAndPetDeposits(){
 
-        exemptionFromPetRentAndPetDeposits.click();
+        //exemptionFromPetRentAndPetDeposits.click();
+
+        CommonMethods.clickUsingJs(exemptionFromPetRentAndPetDeposits);
     }
 
 
@@ -221,7 +223,9 @@ public class registerAnimalServicePage extends CommonMethods {
 
     public void clickSelectService(){
 
-        selectService.click();
+       // selectService.click();
+
+        CommonMethods.clickUsingJs(selectService);
     }
 
 

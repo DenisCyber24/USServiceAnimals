@@ -2,6 +2,7 @@
 
         import Utilities.CommonMethods;
         import Utilities.ConfigReader;
+        import io.cucumber.java.After;
         import io.cucumber.java.Before;
         import io.cucumber.java.en.Given;
         import io.cucumber.java.en.When;
@@ -151,13 +152,13 @@
 
 
 
-//            @After
-//                public void tearDown() {
-//             // Close the browser after each scenario
-//
-//             CommonMethods.closeBrowser();
-//
-//         }
+            @After
+                public void tearDown() {
+             // Close the browser after each scenario
+
+             CommonMethods.closeBrowser();
+
+         }
 
         }
 
